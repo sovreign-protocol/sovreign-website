@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+body{
+    background-image: url(../images/background-SoVReign.png);
+    background-color:#0C0F21;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;  
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 2rem;
+    color: white;
+}
+h3 {
+    color: white;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+h4{
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+h5{ 
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: white;
+
+}
+
+p {
+        color: white;
+        font-size: 1rem;
+        font-weight: 200;
+}
+
+
+/* navbar styles */
+
+.navbar{
+   padding: 16px 0px;
+        background: transparent;
+}
+
+.nav-item{
+    padding: 0 2rem 0 2rem;
+}
+.nav-link{
+    font-weight: 200;
+   opacity: 100;
+}
+
+.logo-txt{
+    margin-left: 0.5em;
+    font-weight: 200;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.container-fluid{
+    padding:0 8%;
+    height: 100vh;
+}
+
+/* hero section styles */
+
+.super-head{
+ margin-top: 25vh;
+font-size: 4.5rem;
+font-weight: 100;
+letter-spacing: 1rem;
+color: white;
+}
+
+.hero-title{
+    margin-top: 30vh;
+}
+
+.hero-subtitle{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.hero-txt{
+    padding: 0 6rem 0rem 0;
+}
+
+.whitepaper-btn-txt{
+    padding: 0 1rem;
+}
+
+#download-whitepaper-btn{
+    cursor: pointer;
+    margin-top: 2rem;
+}
+.planet-image {
+    max-width: 600px;
+    margin-top: 10vh;
+}
+
+
+/* sovreign-values-section */
+#SoVReign-values-section{
+    padding-top: 15%;
+
+}
+
+.core-values-section-box{
+    padding: 0rem 5%;
+
+}
+.sovreign-values-images{
+    height: 160px;
+    padding-bottom: 2rem;
+}
+/* token section styles */
+
+.token-cards-container{
+  padding: 0% 10%;
+}
+.token-explainer-title{
+    margin-top: 15%;
+}
+.token-explainer-subtitle{
+    margin-bottom: 10%;
+}
+.SVR-token-image{
+    max-width: 320px;
+    margin-bottom: 2rem;
+}
+.REIGN-token-image{
+    max-width: 320px;
+    margin-bottom: 2rem;
+}
+
+#learn-more-btn{
+    margin: 1rem 0 10% 0;
+}
+
+
+/* feautres section styles */
+
+.features-section-title{
+    margin-top: 10vh;
+}
+.features-section-subtitle{
+    margin-bottom: 4rem;
+}
+
+.dynamic-interest{
+    margin-top: 2rem;
+    max-width: 300px;
+}
+.passive-voting{
+    margin-top: 2rem;
+    max-width: 300px;
+}
+
+.crowd-wisdom{
+    margin-top: 2rem;
+    max-width: 300px;
+}
+
+.underlying-value{
+    margin-top: 2rem;
+    max-width: 300px;
+}
+
+.community-section-title{
+    margin-top: 10vh;
+}
+.community-section-subtitle{
+    margin-bottom: 4rem;
+}
+
+.features-download-whitepaper{
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+}
+
+/* Tokenomics section styles */
+
+.tokenomics-section-subtitle{
+    padding-bottom: 0;
+    margin-bottom: 0rem;
+}
+
+#tokenomics-graphics{
+    padding: 4rem 0rem;
+}
+
+#liquidity-provider-on-State{
+    opacity: 0;
+}
+
+#liquidity-provider-on-State:hover{
+    transition: 0.3s ease;
+    opacity: 100;
+}
+
+#governance-on-state{
+    opacity: 0;
+}
+
+#governance-on-state:hover{
+    transition: 0.3s ease;
+    opacity: 100;
+}
+
+#treasury-on-state{
+    opacity: 0;
+}
+
+#treasury-on-state:hover{
+    transition: 0.3s ease;
+    opacity: 100;
+}
+
+#treasury-sale-on-state{
+    opacity: 0;
+}
+
+#treasury-sale-on-state:hover{
+    transition: 0.3s ease;
+    opacity: 100;
+}
+
+#long-term-dev-on-state{
+    opacity: 0;
+}
+
+#long-term-dev-on-state:hover{
+    transition: 0.3s ease;
+    opacity: 100;
+}
+
+#SVR-REIGN-lp-rewards-on-state{
+    opacity: 0;
+}
+
+#SVR-REIGN-lp-rewards-on-state:hover{
+    transition: 0.3s ease;
+    opacity: 100;
+}
+
+#dev-team-on-State{
+    opacity: 0;
+}
+#dev-team-on-State:hover{
+    transition: 0.3s ease;
+    opacity: 100;
+}
+
+#liquidity-buffer-on-state{
+    opacity: 0;
+}
+
+#liquidity-buffer-on-state:hover{
+    transition: 0.3s ease;
+    opacity: 100;
+}
+
+/* social meida channels styles */
+
+.social-title {
+    padding-bottom: 0.5rem;
+}
+.social-title-txt {
+    font-size: 1rem;
+    font-weight: 200;
+    color: white;
+}
+
+.feature-box{
+    text-align:center;
+    padding: 4%;
+}
+.social-txt{
+    font-size: 1rem;
+    font-weight: 200;
+    color:whitesmoke;
+
+}
+
+.tokenomics-cards{
+    padding-top: 2.5rem;
+}
+
+/* Footer Styles */
+
+.footer-logo-txt{
+    font-size: 1.1rem;
+    font-weight: 200;
+    color: white;
+    padding-left: 1rem;
+}
+.footer-links{
+    font-size: 1rem;
+    font-weight: 200;
+    padding: 0rem 1rem;
+    color: white;
+}
+
+.copyright-txt {
+    font-size: 1rem;
+    font-weight: 200;
+    color: white;
+}
+
+/* responsive styles */
+
+@media (max-width: 1340px) {
+    #tokenomics-graph{
+        width: 560px;
+    }
+}
+
+@media (max-width: 1260px) {
+    .planet-image {
+        max-width: 480px;
+        margin-top: 30%;
+    }
+    #tokenomics-graph{
+        width: 540px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .planet-image {
+        max-width: 480px;
+        margin-top: 30%;
+    }
+
+    .core-values-section-box{
+        padding: 0rem 15%;
+    }
+    #tokenomics-first{
+        order: 3;
+    }
+
+    #tokenomics-second{
+        order: 2;
+    }
+
+}
+
+@media (max-width: 1100px) {
+
+    .planet-image {
+        max-width: 400px;
+        margin-top: 20%;
+    }
+    .super-head {
+        margin-top: 20%;
+        font-size: 3rem;
+        letter-spacing: 0.67rem;
+    }
+}
+
+@media (max-width: 991px) {
+
+    #hero-first{
+        order: 2;
+    }
+
+    #hero-second{
+        order: 1;
+    }
+
+    .col-lg-6 {
+            text-align: center;
+     }
+
+     .super-head {
+        margin-top: 10%;
+        text-align: center;
+    }
+     .hero-title {
+         margin-top: 10%;
+         max-width: 320px;
+         text-align: center;
+     }
+     .hero-txt{
+        padding: 0 7em;
+    }
+    .planet-image {
+        max-width: 500px;
+        margin-top: 10%;
+    }
+
+
+    #SoVReign-values-section{
+        padding-top: 8rem;
+    
+    }
+    .features-download-whitepaper{
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+    }
+    #tokenomics-graph{
+        width: 500px;
+        height: 500px;
+    }
+  }
+
+  @media (max-width: 711px) {
+
+    #tokenomics-graphics{
+        padding: 0rem 0rem;
+    }
+
+    .hero-txt{
+        padding: 0 4em;
+    }
+    #tokenomics-graph{
+        padding-top:2.5rem;
+        width: 500px;
+    }
+
+    .planet-image {
+        max-width: 400px;
+        margin-top: 10%;
+    }
+}
+
+
+@media (max-width: 561px) {
+
+
+    .super-head {
+        margin-top: 15%;
+        text-align: center;
+        font-size: 3rem;
+        letter-spacing: 0.67rem;
+    }
+
+    .planet-image {
+        max-width: 360px;
+        margin-top: 10%;
+    }
+    .hero-title {
+        margin-top: 10%;
+        max-width: 300px;
+        text-align: center;
+    }
+
+    #tokenomics-graphics{
+        padding: 0rem 0rem;
+    }
+    .hero-txt{
+        padding: 0em;
+    }
+
+    #tokenomics-graph{
+        width: 420px;
+        height: 420px;
+    }
+}
+
+
+@media (max-width: 430px){
+
+    .super-head {
+        margin-top: 15%;
+        text-align: center;
+        font-size: 3rem;
+        letter-spacing: 0.67rem;
+    }
+
+    #tokenomics-graph{
+        width: 360px;
+        height: 360px;
+    }
+
+    #tokenomics-graphics{
+        padding: 0rem 0rem;
+    }
+    .hero-txt{
+        padding: 0em;
+    }
+}
+
+@media (max-width: 390px){
+    .planet-image {
+        max-width: 300px;
+        margin-top: 20%;
+    }
+
+    .SVR-token-image{
+        max-width: 280px;
+        margin-bottom: 2rem;
+    }
+    .REIGN-token-image{
+        max-width: 280px;
+        margin-bottom: 2rem;
+    }
+    #tokenomics-graph{
+        width: 300px;
+        height: 300px;
+    }
+
+    #tokenomics-graphics{
+        padding: 0rem 0rem;
+    }
+    .hero-txt{
+        padding: 0em;
+    }
+}
