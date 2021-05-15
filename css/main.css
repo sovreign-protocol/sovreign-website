@@ -471,7 +471,10 @@ color: white;
 
 @media (max-width: 561px) {
 
-
+     .core-values-section-box{
+        padding: 0rem 5%;
+    }
+    
     .super-head {
         margin-top: 15%;
         text-align: center;
