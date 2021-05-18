@@ -87,6 +87,34 @@ p {
     height: 100vh;
 }
 
+
+/* What is SoVReign Section */
+
+.SDR-txt{
+    color: white;
+    font-weight: 200;
+    padding-bottom: 1rem;
+}
+
+.comp-header{
+    color: white;
+    font-weight:500;
+    font-size: 1.5rem;
+}
+
+.comp-txt{
+    color: white;
+    font-weight: 200;
+    font-size:1rem;
+    margin-bottom: 2rem;
+}
+
+.balanced-portfolio-txt{
+    color: white;
+    font-weight: 200;
+    font-size: 1rem;
+}
+
 /* hero section styles */
 
 .super-head{
