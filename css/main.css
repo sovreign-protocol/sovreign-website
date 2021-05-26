@@ -464,6 +464,10 @@ color: white;
 
 @media (max-width: 991px) {
 
+
+    #basket-comp{
+        margin-bottom: 4rem;
+    }
     #hero-first{
         order: 2;
     }
