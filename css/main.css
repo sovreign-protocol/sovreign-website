@@ -594,6 +594,10 @@ color: white;
 
 @media (max-width: 430px){
 
+    .basket-allocation-image{
+        height: 469px;
+    }
+
     .super-head {
         margin-top: 15%;
         text-align: center;
