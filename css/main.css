@@ -328,7 +328,8 @@ color: white;
 }
 
 .tokenomics-cards{
-    padding-top: 2.5rem;
+    padding-top: 50%;
+    width: 280px;
 }
 
 /* social meida channels styles */
@@ -351,6 +352,14 @@ color: white;
     font-weight: 200;
     color:whitesmoke;
 
+}
+
+/* email octopus sections */
+
+#email-input{
+    font-size: 0.8rem;
+    font-weight: 200;
+    border-radius: 4px;
 }
 
 
@@ -430,7 +439,10 @@ color: white;
         max-width: 480px;
         margin-top: 30%;
     }
-
+    .tokenomics-cards{
+        padding-top: 2.5rem;
+        width: 280px;
+    }
     .core-values-section-box{
         padding: 0rem 15%;
     }
@@ -577,6 +589,8 @@ color: white;
     }
 }
 
+.grecaptcha-badge {
+     opacity:0;}
 
 @media (max-width: 430px){
 
